@@ -91,7 +91,7 @@ const App = () => {
         title: "E-waste exchange platform",
         description: "Initial version built in 24-hour hackathon.",
         tech: ["html", "css", "js","tawk.to ai"],
-        image: "assets/projects images/e-waste.png",
+        image: "assets\projects images\e-waste.png",
         live_demo_url: "https://e-waste-ex.netlify.app//", // Renamed for clarity
         github_url: "https://github.com/HYVIKAS6/E-waste-exchange-platform-.git", // Added a placeholder for GitHub
         notes: "Now working on a React JS version."
@@ -401,7 +401,7 @@ const App = () => {
                   <img
                     src="/assets/vikas.png"
                     alt="Vikas HY"
-                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop'; }}
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/assets/vikas.png'; }}
                     className="w-full h-full object-contain"
                     style={{ objectPosition: '50% 40%' }}
                   />
