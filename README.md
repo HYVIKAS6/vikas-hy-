@@ -1,7 +1,6 @@
 <div align="center">
 
-# 👋 Welcome to Vikas ![Uploading photo guru.png…]()
-HY's Portfolio
+# 👋 Welcome to Vikas HY's Portfolio
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%9A%80;Creative+Problem+Solver+%F0%9F%92%A1;Building+Digital+Experiences+%F0%9F%8C%9F" alt="Typing SVG" />
 
