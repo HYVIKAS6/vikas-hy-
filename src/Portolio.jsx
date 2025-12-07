@@ -399,9 +399,9 @@ const App = () => {
                 {/* shrink-to-fit: keeps the whole image visible inside the circular frame */}
                 <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-2xl bg-white dark:bg-gray-800 flex items-center justify-center">
                   <img
-                    src="/assets/vikas.png"
+                    src="https://github.com/user-attachments/assets/196dfbd0-064e-49e5-a5f7-fe4c18625a93"
                     alt="Vikas HY"
-                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/assets/vikas.png'; }}
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://github.com/user-attachments/assets/196dfbd0-064e-49e5-a5f7-fe4c18625a93'; }}
                     className="w-full h-full object-contain"
                     style={{ objectPosition: '50% 40%' }}
                   />
