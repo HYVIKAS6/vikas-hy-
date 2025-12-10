@@ -91,7 +91,7 @@ const App = () => {
         title: "E-waste exchange platform",
         description: "Initial version built in 24-hour hackathon.",
         tech: ["html", "css", "js","tawk.to ai"],
-        image: "assets\projects images\e-waste.png",
+        image: "/assets/e-waste.png",
         live_demo_url: "https://e-waste-ex.netlify.app//", // Renamed for clarity
         github_url: "https://github.com/HYVIKAS6/E-waste-exchange-platform-.git", // Added a placeholder for GitHub
         notes: "Now working on a React JS version."
@@ -399,9 +399,9 @@ const App = () => {
                 {/* shrink-to-fit: keeps the whole image visible inside the circular frame */}
                 <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-2xl bg-white dark:bg-gray-800 flex items-center justify-center">
                   <img
-                    src="https://github.com/user-attachments/assets/196dfbd0-064e-49e5-a5f7-fe4c18625a93"
+                    src="/assets/vikas.png"
                     alt="Vikas HY"
-                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://github.com/user-attachments/assets/196dfbd0-064e-49e5-a5f7-fe4c18625a93'; }}
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/assets/vikas.png'; }}
                     className="w-full h-full object-contain"
                     style={{ objectPosition: '50% 40%' }}
                   />
